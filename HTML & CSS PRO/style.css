@@ -1,0 +1,176 @@
+.main{
+    width: 202vh;
+    background-image: url('images/mymain.jpg');
+    background-size: cover;
+    height: 110vh;
+}
+.nav{
+    width: 120px;
+    height: 75px;
+    margin: auto;
+}  
+.log{
+    width: 200px;
+    float: right;
+    height: 70px;
+}
+.ins{
+    width: 3vh;
+    margin-right: 50px;
+    float:right;
+    margin-top: 30px;
+}
+.face{
+    width: 3vh;
+    margin-right: 40px;
+    float:right;
+    margin-top: 30px;
+}
+.gmail{
+    width: 3vh;
+    margin-right: 40px;
+    float:right;
+    margin-top: 30px;
+}
+.logo{
+ color: #ebb02d;
+ font-size: 35px;
+ font-family: Arial;
+ padding-right: 20px;
+ float: left;
+ margin-left: 40px;
+ padding-top: 1RRpx; 
+}
+.menu{
+    width: 150px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 150px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li :hover{
+ color: #ebb02d;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: black;
+    position: relative;
+}
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.content h1{
+    font-size: 22px;
+    font-family: 'Times New Roman';
+    padding-left: 20px;
+    margin-top: 7%;
+    letter-spacing: 2px;
+}
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background:  #ebb02d;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+.content .cn a{
+    text-decoration: none;
+    color: black;
+    transition: .3 ease;
+}
+.content .cn:hover{
+    background: white;
+
+}
+.content span{
+    color: #ebb02d;
+    font-size: 40px;
+}
+.form{
+    width: 280px;
+    height: 420px;
+    border-radius: 10px;
+    background: #ebb02d;
+    position: absolute;
+    top:135px;
+    left: 870px;
+    padding: 30px;
+    border-radius: 10px;
+}
+.form h2{
+    width: 220px;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 22px;
+    background-color: black;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 30px;
+}
+.form input{
+    width: 280px;
+    height: 35px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-top: 25px;
+    font-family: sans-serif;
+    background: transparent;
+    border-bottom: 2px solid black;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: aliceblue;
+    font-family: Arial;
+}
+.lgn{
+    width: 280px;
+    height: 40px;
+    background: black;
+    border: none;
+    margin-top: 25px;
+    margin-left: 5px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+.lgn a{
+    text-decoration: none;
+    color: white;
+    transition: .3s ease;
+    font-weight: bold;
+}
